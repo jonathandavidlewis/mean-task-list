@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'git',
+1 verbose cli   'https://github.com/jonathandavidlewis/mean-task-list.git' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git
+8 silly fetchPackageMetaData https://github.com/jonathandavidlewis/mean-task-list.git
+9 silly fetchNamedPackageData git
+10 silly mapToRegistry name git
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/git
+14 silly fetchOtherPackageData https://github.com/jonathandavidlewis/mean-task-list.git
+15 silly cache add args [ 'https://github.com/jonathandavidlewis/mean-task-list.git',
+15 silly cache add   null ]
+16 verbose cache add spec https://github.com/jonathandavidlewis/mean-task-list.git
+17 verbose request uri https://registry.npmjs.org/git
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 10:46:45 PM
+20 verbose request id b24964c7863e8a7b
+21 http request GET https://registry.npmjs.org/git
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'https://github.com/jonathandavidlewis/mean-task-list.git',
+22 silly cache add   scope: null,
+22 silly cache add   name: null,
+22 silly cache add   rawSpec: 'https://github.com/jonathandavidlewis/mean-task-list.git',
+22 silly cache add   spec: 'git+https://github.com/jonathandavidlewis/mean-task-list.git',
+22 silly cache add   type: 'hosted',
+22 silly cache add   hosted:
+22 silly cache add    { type: 'github',
+22 silly cache add      ssh: 'git@github.com:jonathandavidlewis/mean-task-list.git',
+22 silly cache add      sshUrl: 'git+ssh://git@github.com/jonathandavidlewis/mean-task-list.git',
+22 silly cache add      httpsUrl: 'git+https://github.com/jonathandavidlewis/mean-task-list.git',
+22 silly cache add      gitUrl: 'git://github.com/jonathandavidlewis/mean-task-list.git',
+22 silly cache add      shortcut: 'github:jonathandavidlewis/mean-task-list',
+22 silly cache add      directUrl: 'https://raw.githubusercontent.com/jonathandavidlewis/mean-task-list/master/package.json' } }
+23 verbose addRemoteGit caching https://github.com/jonathandavidlewis/mean-task-list.git
+24 verbose addRemoteGit git+https://github.com/jonathandavidlewis/mean-task-list.git is a repository hosted by github
+25 silly tryClone cloning git+https://github.com/jonathandavidlewis/mean-task-list.git via git+https://github.com/jonathandavidlewis/mean-task-list.git
+26 verbose tryClone git-https-github-com-jonathandavidlewis-mean-task-list-git-36aee509 not in flight; caching
+27 verbose makeDirectory /home/jonathan/.npm/_git-remotes creation not in flight; initializing
+28 silly makeDirectory /home/jonathan/.npm/_git-remotes uid: 1000 gid: 1000
+29 info git [ 'clone',
+29 info git   '--template=/home/jonathan/.npm/_git-remotes/_templates',
+29 info git   '--mirror',
+29 info git   'https://github.com/jonathandavidlewis/mean-task-list.git',
+29 info git   '/home/jonathan/.npm/_git-remotes/git-https-github-com-jonathandavidlewis-mean-task-list-git-36aee509' ]
+30 http 200 https://registry.npmjs.org/git
+31 verbose headers { server: 'nginx/1.10.3',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'last-modified': 'Mon, 20 Feb 2017 03:16:08 GMT',
+31 verbose headers   etag: 'W/"58aa5f78-278b"',
+31 verbose headers   'content-encoding': 'gzip',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'content-length': '2304',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Tue, 30 May 2017 05:46:46 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '0',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-sjc3126-SJC',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1496123206.888947,VS0,VE126',
+31 verbose headers   vary: 'Accept-Encoding' }
+32 silly get cb [ 200,
+32 silly get   { server: 'nginx/1.10.3',
+32 silly get     'content-type': 'application/json',
+32 silly get     'last-modified': 'Mon, 20 Feb 2017 03:16:08 GMT',
+32 silly get     etag: 'W/"58aa5f78-278b"',
+32 silly get     'content-encoding': 'gzip',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'content-length': '2304',
+32 silly get     'accept-ranges': 'bytes',
+32 silly get     date: 'Tue, 30 May 2017 05:46:46 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     age: '0',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-sjc3126-SJC',
+32 silly get     'x-cache': 'MISS',
+32 silly get     'x-cache-hits': '0',
+32 silly get     'x-timer': 'S1496123206.888947,VS0,VE126',
+32 silly get     vary: 'Accept-Encoding' } ]
+33 verbose get saving git to /home/jonathan/.npm/registry.npmjs.org/git/.cache.json
+34 verbose mirrorRemote git+https://github.com/jonathandavidlewis/mean-task-list.git git clone https://github.com/jonathandavidlewis/mean-task-list.git
+35 verbose setPermissions git+https://github.com/jonathandavidlewis/mean-task-list.git set permissions on /home/jonathan/.npm/_git-remotes/git-https-github-com-jonathandavidlewis-mean-task-list-git-36aee509
+36 verbose resolveHead git+https://github.com/jonathandavidlewis/mean-task-list.git original treeish: master
+37 info git [ 'rev-list', '-n1', 'master' ]
+38 error git rev-list -n1 master: fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+38 error git rev-list -n1 master: Use '--' to separate paths from revisions, like this:
+38 error git rev-list -n1 master: 'git <command> [<revision>...] -- [<file>...]'
+39 silly fetchPackageMetaData Error: Command failed: git rev-list -n1 master
+39 silly fetchPackageMetaData fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+39 silly fetchPackageMetaData Use '--' to separate paths from revisions, like this:
+39 silly fetchPackageMetaData 'git <command> [<revision>...] -- [<file>...]'
+39 silly fetchPackageMetaData
+39 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:213:12)
+39 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+39 silly fetchPackageMetaData     at ChildProcess.emit (events.js:172:7)
+39 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:821:16)
+39 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+39 silly fetchPackageMetaData  error for https://github.com/jonathandavidlewis/mean-task-list.git { [Error: Command failed: git rev-list -n1 master
+39 silly fetchPackageMetaData fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+39 silly fetchPackageMetaData Use '--' to separate paths from revisions, like this:
+39 silly fetchPackageMetaData 'git <command> [<revision>...] -- [<file>...]'
+39 silly fetchPackageMetaData ]
+39 silly fetchPackageMetaData   killed: false,
+39 silly fetchPackageMetaData   code: 128,
+39 silly fetchPackageMetaData   signal: null,
+39 silly fetchPackageMetaData   cmd: 'git rev-list -n1 master' }
+40 silly rollbackFailedOptional Starting
+41 silly rollbackFailedOptional Finishing
+42 silly runTopLevelLifecycles Starting
+43 silly runTopLevelLifecycles Finishing
+44 silly install printInstalled
+45 verbose stack Error: Command failed: git rev-list -n1 master
+45 verbose stack fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+45 verbose stack Use '--' to separate paths from revisions, like this:
+45 verbose stack 'git <command> [<revision>...] -- [<file>...]'
+45 verbose stack
+45 verbose stack     at ChildProcess.exithandler (child_process.js:213:12)
+45 verbose stack     at emitTwo (events.js:87:13)
+45 verbose stack     at ChildProcess.emit (events.js:172:7)
+45 verbose stack     at maybeClose (internal/child_process.js:821:16)
+45 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+46 verbose cwd /home/jonathan/software_dev/mean-stack/mean-task-list
+47 error Linux 4.8.0-36-generic
+48 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "git" "https://github.com/jonathandavidlewis/mean-task-list.git"
+49 error node v4.2.6
+50 error npm  v3.5.2
+51 error code 128
+52 error Command failed: git rev-list -n1 master
+52 error fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+52 error Use '--' to separate paths from revisions, like this:
+52 error 'git <command> [<revision>...] -- [<file>...]'
+53 error If you need help, you may report this error at:
+53 error     <https://github.com/npm/npm/issues>
+54 verbose exit [ 1, true ]
